@@ -14,9 +14,9 @@ const RandomJokesApi = () => {
     setText("");
   };
   return (
-    <div>
+    <div className="p-6 md:p-0">
       <img src="https://i.ibb.co/5F5F532/chuck.png" alt="ChuckNorris" />
-      <div id="display-joke" className="card">
+      <div id="display-joke" className="card m-2">
         <span className="random-text">{text}</span>
         <span>{userData.value}</span>
       </div>

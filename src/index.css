@@ -5,7 +5,6 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 2;
   font-size: 2em;
-  width: 800px;
   margin: 50px auto;
   background: #5f2c82; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -24,7 +23,7 @@ body {
   display: none;
 }
 img {
-  width: 10%;
+  width: 25%;
   height: auto;
 }
 /* button {
@@ -39,6 +38,7 @@ img {
   background: #fff;
   border-radius: 8px;
   padding: 12px;
+  margin: 12px;
 }
 
 .glow-on-hover {
