@@ -15,7 +15,7 @@ const RandomJokesApi = () => {
   };
   return (
     <div>
-      <img src="https://i.ibb.co/5F5F532/chuck.png" />
+      <img src="https://i.ibb.co/5F5F532/chuck.png" alt="ChuckNorris" />
       <div id="display-joke" className="card">
         <span className="random-text">{text}</span>
         <span>{userData.value}</span>
